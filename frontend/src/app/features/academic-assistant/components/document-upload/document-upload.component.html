@@ -1,0 +1,119 @@
+
+<div class="upload-container">
+
+    <div class="upload-header">
+      <h2>Academic Document Assistant</h2>
+      <p>Upload your academic PDF and ask questions using AI.</p>
+    </div>
+  
+    <div class="upload-box">
+  
+      <div class="upload-icon">
+        <span>📄</span>
+      </div>
+  
+      <h3>Upload your PDF document</h3>
+  
+      <p class="upload-description">
+        Select a PDF file to start asking questions.
+      </p>
+  
+      <!-- PDF File Input -->
+      <input
+        #fileInput
+        type="file"
+        accept=".pdf,application/pdf"
+        hidden
+        (change)="onFileSelected($event)"
+      />
+  
+      <button
+        type="button"
+        class="select-button"
+        [disabled]="isUploading"
+        (click)="fileInput.click()">
+        Choose PDF
+      </button>
+  
+      <!-- Selected File -->
+      <div class="file-info" *ngIf="selectedFile">
+  
+        <div class="file-details">
+          <span class="file-icon">📑</span>
+  
+          <div>
+            <strong>{{ selectedFile.name }}</strong>
+            <small>
+              {{ (selectedFile.size / 1024 / 1024).toFixed(2) }} MB
+            </small>
+          </div>
+        </div>
+  
+        <button
+          type="button"
+          class="remove-button"
+          [disabled]="isUploading"
+          (click)="removeFile()"
+          aria-label="Remove selected PDF">
+          ✕
+        </button>
+  
+      </div>
+  
+      <!-- Upload Button -->
+      <button
+        type="button"
+        class="upload-button"
+        *ngIf="selectedFile"
+        [disabled]="isUploading"
+        (click)="uploadDocument()">
+  
+        {{ isUploading ? 'Uploading...' : 'Upload Document' }}
+  
+      </button>
+  
+      <!-- Loading -->
+      <div class="loading-message" *ngIf="isUploading">
+        Processing your PDF. Please wait...
+      </div>
+  
+      <!-- Success -->
+      <div class="success-message" *ngIf="uploadSuccess">
+  
+        <strong>✓ {{ successMessage }}</strong>
+  
+        <div class="document-metadata">
+  
+          <p *ngIf="documentId">
+            <strong>Document ID:</strong> {{ documentId }}
+          </p>
+  
+          <p>
+            <strong>Total Pages:</strong> {{ pageCount }}
+          </p>
+  
+          <p>
+            <strong>Total Chunks:</strong> {{ chunkCount }}
+          </p>
+  
+        </div>
+  
+        <p class="chat-ready">
+          Your document is ready. You can now ask questions.
+        </p>
+  
+      </div>
+  
+      <!-- Error -->
+      <div class="error-message" *ngIf="errorMessage">
+        {{ errorMessage }}
+      </div>
+  
+      <p class="file-restrictions">
+        Supported format: PDF | Maximum file size: 10 MB
+      </p>
+  
+    </div>
+  
+  </div>
+  

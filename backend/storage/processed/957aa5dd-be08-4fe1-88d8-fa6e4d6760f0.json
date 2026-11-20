@@ -1,0 +1,160 @@
+{
+  "document_id": "957aa5dd-be08-4fe1-88d8-fa6e4d6760f0",
+  "filename": "Weekwise Schedule - Gen AI - June .pdf",
+  "page_count": 24,
+  "chunk_count": 5,
+  "pages": [
+    {
+      "page_number": 1,
+      "character_count": 3559,
+      "chunk_count": 5
+    },
+    {
+      "page_number": 2,
+      "character_count": 0,
+      "chunk_count": 0
+    },
+    {
+      "page_number": 3,
+      "character_count": 0,
+      "chunk_count": 0
+    },
+    {
+      "page_number": 4,
+      "character_count": 0,
+      "chunk_count": 0
+    },
+    {
+      "page_number": 5,
+      "character_count": 0,
+      "chunk_count": 0
+    },
+    {
+      "page_number": 6,
+      "character_count": 0,
+      "chunk_count": 0
+    },
+    {
+      "page_number": 7,
+      "character_count": 0,
+      "chunk_count": 0
+    },
+    {
+      "page_number": 8,
+      "character_count": 0,
+      "chunk_count": 0
+    },
+    {
+      "page_number": 9,
+      "character_count": 0,
+      "chunk_count": 0
+    },
+    {
+      "page_number": 10,
+      "character_count": 0,
+      "chunk_count": 0
+    },
+    {
+      "page_number": 11,
+      "character_count": 0,
+      "chunk_count": 0
+    },
+    {
+      "page_number": 12,
+      "character_count": 0,
+      "chunk_count": 0
+    },
+    {
+      "page_number": 13,
+      "character_count": 0,
+      "chunk_count": 0
+    },
+    {
+      "page_number": 14,
+      "character_count": 0,
+      "chunk_count": 0
+    },
+    {
+      "page_number": 15,
+      "character_count": 0,
+      "chunk_count": 0
+    },
+    {
+      "page_number": 16,
+      "character_count": 0,
+      "chunk_count": 0
+    },
+    {
+      "page_number": 17,
+      "character_count": 0,
+      "chunk_count": 0
+    },
+    {
+      "page_number": 18,
+      "character_count": 0,
+      "chunk_count": 0
+    },
+    {
+      "page_number": 19,
+      "character_count": 0,
+      "chunk_count": 0
+    },
+    {
+      "page_number": 20,
+      "character_count": 0,
+      "chunk_count": 0
+    },
+    {
+      "page_number": 21,
+      "character_count": 0,
+      "chunk_count": 0
+    },
+    {
+      "page_number": 22,
+      "character_count": 0,
+      "chunk_count": 0
+    },
+    {
+      "page_number": 23,
+      "character_count": 0,
+      "chunk_count": 0
+    },
+    {
+      "page_number": 24,
+      "character_count": 0,
+      "chunk_count": 0
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_id": "e05fc1b9-ff68-4fa1-960a-e6e709df112a",
+      "page_number": 1,
+      "chunk_number": 1,
+      "text": "Certificate in Generative AI - June 2026 Cohort\nModule\nDay\nTime\nWeek\nDate\nTopic\nFaculty Name\nPre Module\nSaturday 10:00 AM\n0\n23-May-2026\nPre Session (Python)\nSME from IITB\nPre Module\nSunday\n10:00 AM\n0\n7-Jun-2026\nProgram Orientation & Faculty Connect\nBreak Week\nFoundations of Machine Learning\nSaturday 10:00 AM\n1\n20-Jun-2026\nOverview of Machine Learning: Regression\nProf Manjesh Hanawal \nFoundations of Machine Learning\nSaturday 10:00 AM\n2\n27-Jun-2026\nIntroduction to ML: Supervised Learning\nProf Manjesh Hanawal \nFoundations of Machine Learning\nSaturday 10:00 AM\n3\n04-Jul-2026\nIntroduction to ML: Unsupervised Learning\nProf Manjesh Hanawal \nBreak Week\nFundamentals of Deep Learning for Generative AI\nSaturday 10:00 AM\n4\n18-Jul-2026\nDeep Learning: Multi-Layer Perceptrons (MLP)\nProf Balamurugan \nFundamentals of Deep Learning for Generative AI\nSaturday 10:00 AM\n5\n25-Jul-2026\nDeep Learning: CNNs and Image Processing Applications\nProf Balamurugan \nFundamentals of Deep Learning for Generative AI\nSatur"
+    },
+    {
+      "chunk_id": "0387094d-9f7c-49e6-a715-910fee34f4d3",
+      "page_number": 1,
+      "chunk_number": 2,
+      "text": "y 10:00 AM\n5\n25-Jul-2026\nDeep Learning: CNNs and Image Processing Applications\nProf Balamurugan \nFundamentals of Deep Learning for Generative AI\nSaturday 10:00 AM\n6\n01-Aug-2026\nDeep Learning: RNNs, LSTMs and Applications\nProf Balamurugan \nNatural Language Processing and Large Language Models\nSaturday 10:00 AM\n7\n8-Aug-2026\nAttention Mechanisms and Embedding Models\nProf Manjesh Hanawal \nBreak Week\nNatural Language Processing and Large Language Models\nSunday\n10:00 AM\n8\n23-Aug-2026\nTransformers\nProf Manjesh Hanawal \nNatural Language Processing and Large Language Models\nSunday\n10:00 AM\n9\n30-Aug-2026\nLLM Architectures and LLM Fine-Tuning\nProf Manjesh Hanawal \nNatural Language Processing and Large Language Models\nSunday\n10:00 AM\n10\n6-Sep-2026\nLLM Use Cases: Classification and Text Labelling\nProf Balamurugan \nNatural Language Processing and Large Language Models\nSaturday 10:00 AM\n11\n12-Sep-2026\nLLM Use Cases: Generation and Summarization\nProf Balamurugan \nLLM Workflows and Multimodal AI\nSaturd"
+    },
+    {
+      "chunk_id": "5dbda170-67e1-4e7b-9f31-719c95a27583",
+      "page_number": 1,
+      "chunk_number": 3,
+      "text": "Language Models\nSaturday 10:00 AM\n11\n12-Sep-2026\nLLM Use Cases: Generation and Summarization\nProf Balamurugan \nLLM Workflows and Multimodal AI\nSaturday 10:00 AM\n12\n19-Sep-2026\nPrompt Engineering, RAG, and In-Context Learning\nProf Manjesh Hanawal \nLLM Workflows and Multimodal AI\nSaturday 10:00 AM\n13\n26-Sep-2026\nAdvanced RAG: Optimization, GraphRAG and Vector Databases\nProf Manjesh Hanawal \nBreak Week\nLLM Workflows and Multimodal AI\nSaturday 10:00 AM\n14\n10-Oct-2026\nVariational Autoencoders, GANs, and Diffusion Models\nProf Manjesh Hanawal \nLLM Workflows and Multimodal AI\nSaturday 10:00 AM\n15\n17-Oct-2026\nMultimodal RAG\nProf Manjesh Hanawal \nDesigning and Building AI Agents\nSaturday 10:00 AM\n16\n24-Oct-2026\nIntroduction to AI Agents\nWing Cdr Rohan Chandak\nDesigning and Building AI Agents\nSaturday 10:00 AM\n17\n31-Oct-2026\nBuilding Single-Agent Systems\nWing Cdr Rohan Chandak\nBreak Week\nDesigning and Building AI Agents\nSaturday 10:00 AM\n18\n14-Nov-2026\nAgentic AI Applications and MCP\nWing Cdr Ro"
+    },
+    {
+      "chunk_id": "e09b944b-87cd-4422-ab33-1e96ed2dee5d",
+      "page_number": 1,
+      "chunk_number": 4,
+      "text": "ystems\nWing Cdr Rohan Chandak\nBreak Week\nDesigning and Building AI Agents\nSaturday 10:00 AM\n18\n14-Nov-2026\nAgentic AI Applications and MCP\nWing Cdr Rohan Chandak\nDeploying, Securing, and Managing LLM Applications\nSaturday 10:00 AM\n19\n21-Nov-2026\nCI/CD Pipeline and DevOps for LLMs and LLMOps\nIndustry Expert\nDeploying, Securing, and Managing LLM Applications\nSunday\n10:00 AM\n20\n28-Nov-2026\nMitigating LLM Vulnerabilities and Data Governance\nIndustry Expert\nSunday\n11:00 AM\n21\n05-Dec-2026\nCampus Immersion\nNotes\n1) All schedule dates are subject to change at IITB’s sole discretion. Please refer to the LMS for the latest version.\n2) Each Module will have subjective / objective assignment \n3) Each week the session duration will be 3 - 4 hours\n4) The number of sessions allocated to a particular module may change at the discretion of the faculty\n5) There are five break weeks in the course. \n6) Sessions will not be conducted on those days which are declared holidays as per the IITB holiday calenda"
+    },
+    {
+      "chunk_id": "d60a832d-4b67-46b9-889c-a5c28944e884",
+      "page_number": 1,
+      "chunk_number": 5,
+      "text": "There are five break weeks in the course. \n6) Sessions will not be conducted on those days which are declared holidays as per the IITB holiday calendar."
+    }
+  ]
+}

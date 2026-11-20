@@ -1,0 +1,97 @@
+
+<div class="chat-container">
+
+    <div class="chat-header">
+      <h2>Ask Your Document</h2>
+      <p>Ask questions based on the uploaded PDF.</p>
+    </div>
+  
+    <div
+      class="chat-messages"
+      #chatMessages
+      role="log"
+      aria-live="polite"
+      aria-label="Document conversation">
+  
+      <div
+        *ngFor="let message of messages"
+        class="message"
+        [ngClass]="message.role">
+  
+        <div class="message-label">
+          {{ message.role === 'user' ? 'You' : 'AI Assistant' }}
+        </div>
+  
+        <div class="message-content">
+          {{ message.content }}
+        </div>
+  
+        <div
+          class="sources"
+          *ngIf="message.role === 'assistant' && message.sources?.length">
+  
+          <h4>Source References</h4>
+  
+          <div
+            class="source-item"
+            *ngFor="let source of message.sources">
+  
+            <div class="source-header">
+              <strong>Page {{ source.page_number }}</strong>
+  
+              <span>
+                Similarity:
+                {{ (source.similarity_score * 100).toFixed(1) }}%
+              </span>
+            </div>
+  
+            <p>{{ source.text }}</p>
+  
+          </div>
+        </div>
+      </div>
+  
+      <div class="loading-message" *ngIf="isLoading">
+        <span class="loading-indicator"></span>
+        AI is analyzing your document...
+      </div>
+  
+      <div class="error-message" *ngIf="errorMessage" role="alert">
+        {{ errorMessage }}
+      </div>
+  
+      <div class="empty-message" *ngIf="messages.length === 0 && !isLoading">
+        <p>Start by asking a question about your uploaded document.</p>
+        <span>For example: What is the course fee?</span>
+      </div>
+  
+    </div>
+  
+    <div class="chat-input">
+  
+      <textarea
+        [(ngModel)]="question"
+        placeholder="Ask something about your document..."
+        rows="3"
+        maxlength="2000"
+        [disabled]="isLoading || !documentId"
+        (keydown.enter)="onEnter($event)">
+      </textarea>
+  
+      <button
+        type="button"
+        (click)="askQuestion()"
+        [disabled]="isLoading || !documentId || question.trim().length < 3">
+  
+        {{ isLoading ? 'Thinking...' : 'Ask AI' }}
+  
+      </button>
+  
+    </div>
+  
+    <p class="input-hint">
+      Press Enter to send. Use Shift + Enter for a new line.
+    </p>
+  
+  </div>
+  

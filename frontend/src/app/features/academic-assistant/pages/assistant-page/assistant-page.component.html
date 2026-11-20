@@ -1,0 +1,13 @@
+<div class="academic-assistant-page">
+
+    <app-document-upload
+      (documentUploaded)="onDocumentUploaded($event)"
+      (documentCleared)="onDocumentCleared()">
+    </app-document-upload>
+  
+    <app-document-chat
+      *ngIf="documentId"
+      [documentId]="documentId">
+    </app-document-chat>
+  
+  </div>
