@@ -77,7 +77,6 @@ export class DocumentChatComponent implements OnChanges {
     this.question = '';
     this.errorMessage = '';
     this.isLoading = true;
-
     this.scrollToBottom();
 
     this.academicAssistantService
